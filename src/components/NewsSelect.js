@@ -15,6 +15,11 @@ const NewsSelector = ({news, onNewsSelected}) => {
         <select defaultValue="" onChange={handleChange}>
             <option value="">Choose a News Article</option>
             {newsOptions}
+            {news.map(news => {
+                return (
+                    <option key={news.webUrl} value={news.webUrl}>{news.webTitle}</option>
+                )
+            })}
         </select>
     )
 }
