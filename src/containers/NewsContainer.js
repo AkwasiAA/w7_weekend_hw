@@ -26,7 +26,7 @@ const NewsContainer = () => {
     return (
         <div className="main-news-container">
             <NewsSelector news={news} onNewsSelected={onNewsSelected}  />
-            {/* {selectedNews ? <NewsDetail selectedNews={selectedNews} /> : null} */}
+            {selectedNews ? <NewsDetail selectedNews={selectedNews} /> : null}
 
         </div>
     )

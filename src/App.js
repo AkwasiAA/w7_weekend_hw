@@ -4,7 +4,7 @@ import NewsContainer from './containers/NewsContainer';
 function App() {
   return (
    <div className="App">
-     <h1>Olympics News</h1>
+     <h1>Brexit News</h1>
      <NewsContainer />
    </div>
   );
